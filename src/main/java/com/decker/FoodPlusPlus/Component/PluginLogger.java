@@ -1,4 +1,4 @@
-package org.bukkit.plugin.java.Component;
+package com.decker.FoodPlusPlus.Component;
 
 import java.util.logging.Logger;
 
@@ -13,10 +13,12 @@ public class PluginLogger
 {
     Plugin ProvidePlugin;
     Logger PluginLogger;
+    Boolean IsDebug;
     private PluginLogger(Plugin plugin)
     {
 	this.ProvidePlugin = plugin;
 	this.PluginLogger = this.ProvidePlugin.getLogger();
+	this.IsDebug=ConfigManager.GetConfig().getBoolean("DebugMode");
     }
     
     
@@ -35,7 +37,10 @@ public class PluginLogger
 
     public static void Info(String messege)
     {
-	_Instance.PluginLogger.info(messege);
+	if(_Instance.IsDebug)
+	{
+	    _Instance.PluginLogger.info(messege);
+	}	
     }
     
     public static void Warning(String messege)

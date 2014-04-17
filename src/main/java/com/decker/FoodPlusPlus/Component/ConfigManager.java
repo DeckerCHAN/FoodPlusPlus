@@ -1,4 +1,4 @@
-package com.bukkit.plugin.java.Component;
+package com.decker.FoodPlusPlus.Component;
 
 import java.io.File;
 
