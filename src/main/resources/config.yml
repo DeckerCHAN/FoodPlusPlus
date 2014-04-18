@@ -1,6 +1,6 @@
 #Food++ Configuration
 # Would plugin log messege to console
-DebugMode: true
+DebugMode: false
 #Version of this plugin
 Version: 1.0.1
 # FoodPoint mean how much hunger point will player restore when they eat specific food.
