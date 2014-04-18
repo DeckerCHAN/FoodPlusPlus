@@ -38,7 +38,7 @@ public class PluginLogger
     {
 	if (_Instance.IsDebug)
 	{
-	    _Instance.PluginLogger.info(messege);
+	    _Instance.PluginLogger.info("++DEBUG++"+messege);
 	}
     }
 
