@@ -13,7 +13,7 @@ public class ConfigManager
     private ConfigManager(Plugin plugin)
     {
 	this.ProvidePlugin = plugin;
-	plugin.getConfig();
+	this.Config=plugin.getConfig();
     }
 
     private static ConfigManager _Instance;
