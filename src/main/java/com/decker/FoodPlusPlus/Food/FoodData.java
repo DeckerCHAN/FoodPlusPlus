@@ -2,17 +2,16 @@ package com.decker.FoodPlusPlus.Food;
 
 import java.util.LinkedList;
 import org.bukkit.Material;
-import com.bukkit.plugin.java.Component.ConfigManager;
+
+import com.decker.FoodPlusPlus.Component.ConfigManager;
 
 public class FoodData
 {
-    private LinkedList<Food> IntrinsicFoodList;
-    public LinkedList<Food> CustomerFoodList;
-
+    public LinkedList<Food> IntrinsicFoodList;
     private FoodData()
     {
 	this.IntrinsicFoodList = new LinkedList<Food>();
-	this.CustomerFoodList = new LinkedList<Food>();
+	new LinkedList<Food>();
 
 	this.IntrinsicFoodList.add(new Food(Material.APPLE.name(), 4, 2.4F, Material.APPLE));
 	this.IntrinsicFoodList.add(new Food(Material.BAKED_POTATO.name(), 6, 7.2F, Material.BAKED_POTATO));
