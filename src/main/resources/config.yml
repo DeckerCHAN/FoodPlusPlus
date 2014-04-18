@@ -2,7 +2,7 @@
 # Would plugin log messege to console
 DebugMode: false
 #Version of this plugin
-Version: 1.0.1
+Version: 1.0.3
 # FoodPoint mean how much hunger point will player restore when they eat specific food.
 # Saturation mean how long player will keep up their hunger situation.
 Food:
