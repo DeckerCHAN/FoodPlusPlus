@@ -1,77 +1,80 @@
 #Food++ Configuration
-#This configuration defined how much food point and  would player restore
+# Would plugin log messege to console
 DebugMode: true
+#Version of this plugin
 Version: 1.0.1
+# FoodPoint mean how much hunger point will player restore when they eat specific food.
+# Saturation mean how long player will keep up their hunger situation.
 Food:
  APPLE:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 4
+  Saturation: 2.4
  BAKED_POTATO:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 6
+  Saturation: 7.2
  BREAD:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 5
+  Saturation: 6
  CAKE:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 0.4
  CAKE_BLOCK:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 12
+  Saturation: 2.4
  CARROT_ITEM:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 4
+  Saturation: 4.8
  COOKED_CHICKEN:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 6
+  Saturation: 7.2
  GRILLED_PORK:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 8
+  Saturation: 12.8
  COOKED_FISH:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 6
+  Saturation: 9.6
  COOKIE:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 0.4
  GOLDEN_APPLE:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 4
+  Saturation: 9.6
  GOLDEN_CARROT:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 6
+  Saturation: 14.4
  MELON:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 1.2
  MUSHROOM_SOUP:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 6
+  Saturation: 7.2
  POISONOUS_POTATO:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 1.2
  POTATO_ITEM:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 1
+  Saturation: 0.6
  PUMPKIN_PIE:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 8
+  Saturation: 4.8
  RAW_BEEF:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 3
+  Saturation: 1.8
  RAW_CHICKEN:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 1.2
  RAW_FISH:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 0.4
  PORK:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 3
+  Saturation: 1.8
  ROTTEN_FLESH:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 0.4
  SPIDER_EYE:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 2
+  Saturation: 3.2
  COOKED_BEEF:
-  FoodPoint: 0
-  Saturation: 0
+  FoodPoint: 8
+  Saturation: 12.8
