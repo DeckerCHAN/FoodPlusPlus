@@ -1,7 +1,7 @@
 #Food++ Configuration
 #This configuration defined how much food point and  would player restore
-DebugMode= true
-Version = 1.0.1
+DebugMode: true
+Version: 1.0.1
 APPLE:
   FoodPoint: 0
   Saturation: 0
