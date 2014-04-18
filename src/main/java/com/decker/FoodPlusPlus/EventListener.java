@@ -39,7 +39,7 @@ public class EventListener implements Listener
 		if (food.Material == event.getItem().getType())
 		{
 		    Player currentPlayer = event.getPlayer();
-		    PluginLogger.Info(currentPlayer.getDisplayName() + " Eating " + food.Material.name());
+		    PluginLogger.Debug(currentPlayer.getDisplayName() + " Eating " + food.Material.name());
 		    currentPlayer.setSaturation(currentPlayer.getSaturation() - FoodData.GetInstance().getFood(food.Material).Saturation);
 		    currentPlayer.setFoodLevel(currentPlayer.getFoodLevel() - FoodData.GetInstance().getFood(food.Material).FoodPoint);
 		    // Filter
