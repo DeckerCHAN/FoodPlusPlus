@@ -2,75 +2,76 @@
 #This configuration defined how much food point and  would player restore
 DebugMode: true
 Version: 1.0.1
-APPLE:
+Food:
+ APPLE:
   FoodPoint: 0
   Saturation: 0
-BAKED_POTATO:
+ BAKED_POTATO:
   FoodPoint: 0
   Saturation: 0
-BREAD:
+ BREAD:
   FoodPoint: 0
   Saturation: 0
-CAKE:
+ CAKE:
   FoodPoint: 0
   Saturation: 0
-CAKE_BLOCK:
+ CAKE_BLOCK:
   FoodPoint: 0
   Saturation: 0
-CARROT_ITEM:
+ CARROT_ITEM:
   FoodPoint: 0
   Saturation: 0
-COOKED_CHICKEN:
+ COOKED_CHICKEN:
   FoodPoint: 0
   Saturation: 0
-GRILLED_PORK:
+ GRILLED_PORK:
   FoodPoint: 0
   Saturation: 0
-COOKED_FISH:
+ COOKED_FISH:
   FoodPoint: 0
   Saturation: 0
-COOKIE:
+ COOKIE:
   FoodPoint: 0
   Saturation: 0
-GOLDEN_APPLE:
+ GOLDEN_APPLE:
   FoodPoint: 0
   Saturation: 0
-GOLDEN_CARROT:
+ GOLDEN_CARROT:
   FoodPoint: 0
   Saturation: 0
-MELON:
+ MELON:
   FoodPoint: 0
   Saturation: 0
-MUSHROOM_SOUP:
+ MUSHROOM_SOUP:
   FoodPoint: 0
   Saturation: 0
-POISONOUS_POTATO:
+ POISONOUS_POTATO:
   FoodPoint: 0
   Saturation: 0
-POTATO_ITEM:
+ POTATO_ITEM:
   FoodPoint: 0
   Saturation: 0
-PUMPKIN_PIE:
+ PUMPKIN_PIE:
   FoodPoint: 0
   Saturation: 0
-RAW_BEEF:
+ RAW_BEEF:
   FoodPoint: 0
   Saturation: 0
-RAW_CHICKEN:
+ RAW_CHICKEN:
   FoodPoint: 0
   Saturation: 0
-RAW_FISH:
+ RAW_FISH:
   FoodPoint: 0
   Saturation: 0
-PORK:
+ PORK:
   FoodPoint: 0
   Saturation: 0
-ROTTEN_FLESH:
+ ROTTEN_FLESH:
   FoodPoint: 0
   Saturation: 0
-SPIDER_EYE:
+ SPIDER_EYE:
   FoodPoint: 0
   Saturation: 0
-COOKED_BEEF:
+ COOKED_BEEF:
   FoodPoint: 0
   Saturation: 0

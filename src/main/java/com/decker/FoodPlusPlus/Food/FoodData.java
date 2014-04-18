@@ -45,7 +45,7 @@ public class FoodData
 	{
 	    if (intrinsic.Material.equals(material))
 	    {
-		return new Food(material.toString(), intrinsic.FoodPoint - ConfigManager.GetConfig().getInt(intrinsic.FoodName + ".FoodPoint"), intrinsic.Saturation - (float) ConfigManager.GetConfig().getDouble(intrinsic.FoodName + ".Saturation"), material);
+		return new Food(material.toString(), intrinsic.FoodPoint - ConfigManager.GetConfig().getInt("Food."+intrinsic.FoodName + ".FoodPoint"), intrinsic.Saturation - (float) ConfigManager.GetConfig().getDouble("Food."+intrinsic.FoodName + ".Saturation"), material);
 	    }
 	}
 	throw new Exception("Cant Fin Food!");
