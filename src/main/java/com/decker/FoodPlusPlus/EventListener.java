@@ -1,6 +1,8 @@
 package com.decker.FoodPlusPlus;
 
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerItemConsumeEvent;
 import org.bukkit.plugin.Plugin;
@@ -22,7 +24,9 @@ public class EventListener implements Listener
     {
 	this.ServerPlugin = plugin;
     }
-
+    
+    
+    @EventHandler(priority = EventPriority.LOWEST)
     public void onPlayerItemConsumeEvent(PlayerItemConsumeEvent event)
     {
 	try
